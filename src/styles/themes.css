@@ -1,0 +1,56 @@
+/*
+  Design tokens taken from selectgroup.al (Elementor kit + page CSS):
+    #1B1B1B  dark (header, footer, overlays)     #000000  black
+    #F3F3F3  light grey (panels, text on dark)    #FFFFFF  white
+  Fonts: Playfair Display (headings), Merriweather Sans 300 (text), Murecho (menu).
+  Buttons: transparent, 1px border, 8px radius. Cards: 20px radius.
+
+  Both stores share this base. Each one only changes its accent, so the user
+  always knows where they are: Select Watches = silver, Beauty Point = champagne gold.
+*/
+:root {
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'Merriweather Sans', 'Helvetica Neue', Arial, sans-serif;
+  --font-menu: 'Murecho', 'Helvetica Neue', Arial, sans-serif;
+
+  --dark: #1b1b1b;
+  --black: #000000;
+  --light: #f3f3f3;
+  --white: #ffffff;
+
+  --bg: var(--white);
+  --text: var(--dark);
+  --muted: #6e6e6e;
+  --line: #e2e2e2;
+  --on-dark: var(--light);
+  --on-dark-muted: rgba(243, 243, 243, 0.65);
+  --line-dark: rgba(243, 243, 243, 0.18);
+
+  --radius-btn: 8px;
+  --radius-card: 20px;
+
+  --watches-accent: #f3f3f3;
+  --beauty-accent: #c9a27e;
+}
+
+/* Shared Select Group portal: neutral, both accents visible in the switcher */
+.theme-group {
+  --accent: var(--light);
+  --accent-text: var(--dark);
+  --sale: var(--dark);
+}
+
+/* Select Watches – black, white, steel */
+.theme-watches {
+  --accent: var(--watches-accent);
+  --accent-text: var(--dark);
+  --sale: var(--dark);
+}
+
+/* Beauty Point – same base, warm champagne accent */
+.theme-beauty {
+  --accent: var(--beauty-accent);
+  --accent-text: var(--dark);
+  --sale: #a87b52;
+  --light: #f6f1ec;
+}

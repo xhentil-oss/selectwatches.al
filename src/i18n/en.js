@@ -1,0 +1,88 @@
+export default {
+  announcements: [
+    'FREE shipping on orders over 10,000 ALL',
+    'Complimentary gift wrapping on every order',
+    'Season offers – up to -30%',
+    'Our stores: TEG & QTU, Tirana',
+  ],
+  nav: {
+    home: 'Home', shop: 'Shop', brands: 'Our brands', giftIdeas: 'Gift ideas',
+    seasonOffers: 'Season offers', about: 'About us', contact: 'Contact', blog: 'Blog',
+    allBrands: 'All brands', groupHome: 'Select Group home', search: 'Search products…', switchTo: 'Switch to',
+  },
+  sites: {
+    watches: { name: 'Select Watches', tagline: 'Elegant watches for every moment', cta: 'Discover watches' },
+    beauty: { name: 'Beauty Point', tagline: 'Captivating fragrances & cosmetics', cta: 'Discover fragrances' },
+  },
+  portal: { title: 'Welcome to Select Group', subtitle: 'Choose your world' },
+  home: {
+    newArrivals: 'New arrivals', bestSellers: 'Best sellers', viewAll: 'View all',
+    forHim: 'For Him', forHer: 'For Her', shopNow: 'Shop now',
+  },
+  gifts: {
+    title: 'Gift ideas',
+    eyebrow: 'For every occasion',
+    subtitle: 'Three ideas hand-picked by our team. Choose, add to cart – we gift-wrap it for free.',
+    all: 'View all',
+    slides: [
+      { title: 'Gifts for Him', text: 'Classic watches and woody scents for the refined gentleman.' },
+      { title: 'Gifts for Her', text: 'Delicate timepieces and floral fragrances for every occasion.' },
+      { title: 'Under 15,000 ALL', text: 'Thoughtfully curated gifts for every budget.' },
+    ],
+  },
+  season: {
+    title: 'Season offers', text: 'Selected collections at special prices for a limited time.',
+    endsIn: 'Ends in', days: 'days', hours: 'hours', minutes: 'min', seconds: 'sec',
+    upTo: 'up to', save: 'You save', ended: 'This offer has ended.', cta: 'See offers', dismiss: 'Close',
+  },
+  shop: {
+    title: 'Shop', filters: 'Filters', gender: 'Gender', men: 'Men', women: 'Women', unisex: 'Unisex',
+    category: 'Category', brand: 'Brand', price: 'Price', sort: 'Sort', sortNew: 'Newest',
+    sortPriceAsc: 'Price: low to high', sortPriceDesc: 'Price: high to low', clear: 'Clear filters',
+    results: 'products', empty: 'No products match your filters.', onSale: 'On sale only',
+    maxPrice: 'Up to',
+  },
+  categories: {
+    watches: 'Watches', straps: 'Straps', jewelry: 'Jewelry',
+    perfume: 'Perfume', skincare: 'Skincare', makeup: 'Makeup',
+  },
+  product: {
+    addToCart: 'Add to cart', added: 'Added!', quickAdd: 'Add', description: 'Description',
+    details: 'Details', shipping: 'Shipping & returns', inStock: 'In stock', outOfStock: 'Sold out',
+    quantity: 'Quantity', related: 'You may also like', sale: 'Sale', new: 'New',
+    shippingText: 'Delivery across Albania within 24–48 hours. Free returns within 14 days.',
+  },
+  cart: {
+    title: 'Cart', empty: 'Your cart is empty.', subtotal: 'Subtotal', checkout: 'Checkout',
+    continue: 'Continue shopping', remove: 'Remove',
+  },
+  about: {
+    title: 'About us',
+    text: 'Select Group brings elegant watches and captivating fragrances from the world’s most renowned brands to Albania. With two stores at TEG and QTU, we believe every detail tells your style, craftsmanship and personality.',
+    short: 'Elegant watches, captivating fragrances. Style, craftsmanship and personality.',
+  },
+  footer: {
+    shop: 'Shop', help: 'Help', stores: 'Our stores', newsletter: 'Newsletter',
+    newsletterText: 'Be the first to hear about offers and new arrivals.', email: 'Your email', subscribe: 'Subscribe',
+    shipping: 'Shipping', returns: 'Returns', privacy: 'Privacy', terms: 'Terms', rights: 'All rights reserved by',
+  },
+  contact: { title: 'Contact us', name: 'Name', message: 'Message', send: 'Send' },
+  hero: {
+    watchesWord: 'Elegant watches', beautyWord: 'Captivating fragrances', kicker: 'Two worlds, one address',
+    ring: 'SELECT GROUP • TEG & QTU', brands: 'brands', scroll: 'Scroll',
+    title: 'Elegant watches, captivating fragrances',
+    text: 'A watch and a perfume are more than accessories – they are reflections of style and identity. While a watch captures the precision of time, a perfume immortalizes the essence of a moment.',
+  },
+  story: {
+    watchesTitle: 'Time is the most valuable luxury',
+    watchesText: 'A watch is more than just a timekeeping device; it’s a statement of style, craftsmanship, and personality. Let your wrist do the talking – because every second counts.',
+    beautyTitle: 'Perfume speaks the language of memories',
+    beautyText: 'Perfume is a subtle reflection of who you are. With each note, it evokes emotions, creates memories, and leaves a trace of elegance wherever you go. A perfect scent becomes your signature.',
+  },
+  latest: { title: 'Our latest', watches: 'Our latest watches', beauty: 'Our latest fragrances' },
+  blog: { all: 'All', more: 'Read more from us', originalLanguage: 'This article is currently available in English only.' },
+  news: { title: 'Latest News', subtitle: 'Discover our latest news', readMore: 'Read more' },
+  footerText: 'Select Group comes to you with original products in two stores, one at TEG and the other at QTU.',
+  footerLinks: 'Links', footerContacts: 'Contacts', payment: 'Payment methods', login: 'Login',
+  notFound: { title: 'Page not found', back: 'Back to home' },
+};
