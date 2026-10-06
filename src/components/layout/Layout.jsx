@@ -2,7 +2,9 @@ import { useEffect } from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
+import TrustBar from './TrustBar';
 import CartDrawer from './CartDrawer';
+import AuthModal from '../auth/AuthModal';
 import { useSite } from '../../hooks/useSite';
 
 export default function Layout() {
@@ -20,8 +22,10 @@ export default function Layout() {
       <main>
         <Outlet />
       </main>
+      <TrustBar />
       <Footer />
       <CartDrawer />
+      <AuthModal />
     </div>
   );
 }

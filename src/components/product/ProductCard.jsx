@@ -38,7 +38,7 @@ export default function ProductCard({ product }) {
         disabled={soldOut}
         aria-label={`${t('product.addToCart')}: ${product.name}`}
       >
-        {soldOut ? t('product.outOfStock') : added ? t('product.added') : (<><PlusIcon /> {t('product.addToCart')}</>)}
+        {soldOut ? t('product.outOfStock') : added ? t('product.added') : (<><PlusIcon /> <span className="qa-full">{t('product.addToCart')}</span><span className="qa-short">{t('product.quickAdd')}</span></>)}
       </button>
 
       <div className="product-card__body">
